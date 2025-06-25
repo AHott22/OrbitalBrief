@@ -20,14 +20,37 @@ header {
     color: white;
 }
 
-header img {
+header .header-left {
+    text-align: center;
+    flex-grow: 1;
+}
+
+header .highlight-bar {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header .header-right {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+header .logo img {
     height: 50px;
 }
 
-header p {
-    font-size: 18px;
-    font-style: italic;
+header .orbital-text {
+    font-size: 24px;
+    font-family: 'Orbitron', sans-serif;
     margin-left: 10px;
+    color: white;
 }
 
 nav ul {
@@ -69,7 +92,28 @@ section img {
     margin-bottom: 20px;
 }
 
-section .interactive-globe img {
-    width: 100%;
+.globe-section {
+    text-align: center;
+}
+
+.globe-container img {
+    width: 80%;
     max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.contributors-section {
+    background-color: #e6f0f7;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.contributors-section h3 {
+    color: #2e3b4e;
+}
+
+.contributors-section p {
+    font-size: 16px;
+    color: #555;
 }
