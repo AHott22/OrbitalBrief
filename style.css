@@ -5,7 +5,7 @@
 }
 
 html {
-  background: #cccccc;
+  background: #bcbcbc;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   margin: 40px;
   padding: 40px;
   color: #1d1c1c;
-  border-top: 10px solid #1d1c1c;
+  border-top: 10px solid #2a2a2a;
   overflow-x: hidden;
 }
 
@@ -26,8 +26,8 @@ header {
   align-items: center;
   padding: 30px 40px;
   background-color: #2a2a2a;
-  color: white;
-  border-bottom: 2px solid #1d1c1c;
+  color: #ffffff;
+  border-bottom: 2px solid #bcbcbc;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -42,12 +42,12 @@ header {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 .logo-link h1 {
   font-size: 2.2rem;
-  color: white;
+  color: #ffffff;
 }
 
 .logo-container img {
@@ -58,7 +58,7 @@ header {
 
 .description {
   font-size: 1.1rem;
-  color: white;
+  color: #ffffff;
   text-align: center;
   flex: 1 0 100%;
   margin-top: 10px;
@@ -86,7 +86,7 @@ nav ul li {
 nav ul li a,
 nav ul li span {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -100,7 +100,7 @@ main {
 }
 
 h1, h2, h3, h4, h5 {
-  color: #222;
+  color: #2a2a2a;
   margin-bottom: 10px;
 }
 
@@ -131,10 +131,9 @@ section img {
   margin: 20px 0;
 }
 
-
 section p {
   font-size: 1.2rem;
-  color: #555;
+  color: #444444;
   line-height: 1.5;
   margin-bottom: 15px;
 }
@@ -150,10 +149,11 @@ section p {
 .highlight {
   flex: 1 1 45%;
   max-width: 500px;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #bcbcbc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   text-align: left;
 }
 
@@ -161,11 +161,12 @@ section p {
   max-width: 600px;
   margin: 0 auto;
   padding: 10px 0;
+  border-top: 2px solid #bcbcbc;
 }
 
 .contributor-list p {
   font-size: 1rem;
   line-height: 1.3;
-  color: #444;
+  color: #444444;
   margin: 4px 0;
 }
