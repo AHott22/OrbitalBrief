@@ -75,12 +75,13 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 15px;
+  flex-direction: column;
+  gap: 5px;
   padding-left: 0;
 }
 
 nav ul li {
-  margin-left: 20px;
+  margin-left: 0;
 }
 
 nav ul li a,
