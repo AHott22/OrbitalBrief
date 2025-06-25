@@ -145,7 +145,7 @@ section p {
   border: 1px solid #bcbcbc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   text-align: left;
-flex-direction: column;
+  flex-direction: column;
 }
 
 .highlights-grid {
