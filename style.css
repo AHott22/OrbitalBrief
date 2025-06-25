@@ -95,7 +95,7 @@ section {
 }
 
 section img {
-    max-width: 955px;
+    max-width: 1000px;
     width: 100%;
     height: auto;
     margin: 20px 0;
@@ -139,4 +139,8 @@ h2 a:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
+}
+
+section:last-of-type {
+    margin-bottom: 20px;
 }
