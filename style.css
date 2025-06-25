@@ -1,146 +1,172 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #cccccc;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  margin: 40px;
+  padding: 40px;
+  color: #1d1c1c;
+  border-top: 10px solid #1d1c1c;
+  overflow-x: hidden;
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 40px;
-    background-color: #2a2a2a;
-    color: white;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  background-color: #2a2a2a;
+  color: white;
+  border-bottom: 2px solid #1d1c1c;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo-link {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
 }
 
 .logo-link h1 {
-    font-size: 2.2rem;
-    color: white;
+  font-size: 2.2rem;
+  color: white;
 }
 
 .logo-container img {
-    width: 80px;
-    height: auto;
-    margin-right: 15px;
-}
-
-header h1 {
-    font-size: 2.2rem;
-    color: white;
+  width: 80px;
+  height: auto;
+  margin-right: 15px;
 }
 
 .description {
-    font-size: 1.1rem;
-    color: white;
-    text-align: center;
-    flex: 1 0 100%; 
-    margin-top: 10px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+  font-size: 1.1rem;
+  color: white;
+  text-align: center;
+  flex: 1 0 100%;
+  margin-top: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding-left: 0;
 }
 
 nav ul li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
-nav ul li a, nav ul li span {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+nav ul li a,
+nav ul li span {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff9e00;
 }
 
 main {
-    text-align: center;
-    padding: 40px;
+  text-align: center;
+  padding: 40px;
 }
 
-h2, h3 {
-    color: #333;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
-section img {
-    max-width: 1000px;
-    width: 100%;
-    height: auto;
-    margin: 20px 0;
-}
-
-section p {
-    font-size: 1.2rem;
-    color: #555;
-}
-
-section h3 {
-    font-size: 1.5rem;
-    color: #2a2a2a;
+h1, h2, h3, h4, h5 {
+  color: #222;
+  margin-bottom: 10px;
 }
 
 h2 a {
-    text-decoration: none;
-    color: #2a2a2a;
-    font-weight: bold;
-    transition: color 0.3s ease, text-decoration 0.2s ease;
+  text-decoration: none;
+  color: #2a2a2a;
+  font-weight: bold;
+  transition: color 0.3s ease, text-decoration 0.2s ease;
 }
 
 h2 a:hover {
-    color: #ff9e00;
-    text-decoration: underline;
+  color: #ff9e00;
+  text-decoration: underline;
 }
 
-.highlights-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.highlight {
-    flex: 1 1 45%;
-    max-width: 500px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
+section {
+  margin-bottom: 40px;
 }
 
 section:last-of-type {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+section img {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+section p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.highlights-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.highlight {
+  flex: 1 1 45%;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contributor-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.contributor-list p {
+  font-size: 1rem;
+  line-height: 1.3;
+  color: #444;
+  margin: 4px 0;
 }
