@@ -13,11 +13,17 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 30px 40px;
     background-color: #2a2a2a;
     color: white;
-    height: auto;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .logo-container {
@@ -27,7 +33,7 @@ header {
 }
 
 .logo-container img {
-    width: 120px;
+    width: 80px;
     height: auto;
     margin-right: 15px;
 }
@@ -42,7 +48,12 @@ header h1 {
     color: white;
     text-align: left;
     max-width: 800px;
-    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 nav ul {
@@ -74,7 +85,7 @@ section {
 }
 
 section img {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
     margin: 20px 0;
 }
