@@ -40,9 +40,11 @@ header h1 {
 .description {
     font-size: 1.1rem;
     color: white;
-    text-align: left;
+    text-align: center;
     max-width: 800px;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {
