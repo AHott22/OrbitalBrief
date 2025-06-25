@@ -36,7 +36,7 @@ header {
 
 .right-container {
     display: flex;
-    justify-content: flex-end;
+    margin-right: auto
 }
 
 nav ul {
