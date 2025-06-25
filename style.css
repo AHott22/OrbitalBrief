@@ -54,6 +54,8 @@ header h1 {
 nav {
     display: flex;
     align-items: center;
+    justify-content: flex-end; /* Align login/signup to the far right */
+    width: 100%;
 }
 
 nav ul {
@@ -85,6 +87,7 @@ section {
 }
 
 section img {
+    max-width: 900px; /* Adjusted the globe image size */
     width: 100%;
     height: auto;
     margin: 20px 0;
