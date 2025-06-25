@@ -145,7 +145,6 @@ section p {
   border: 1px solid #bcbcbc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   text-align: left;
-  flex-direction: column;
 }
 
 .highlights-grid {
@@ -154,7 +153,6 @@ section p {
   gap: 40px;
   justify-content: center;
   margin-top: 20px;
-  align-items: stretch;
 }
 
 .contributor-list {
